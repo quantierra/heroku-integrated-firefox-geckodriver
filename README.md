@@ -1,11 +1,5 @@
-# heroku-integrated-firefox-geckodriver
-
-[![Build Status](https://travis-ci.org/pyronlaboratory/heroku-integrated-firefox-geckodriver.svg?branch=master)](https://travis-ci.org/pyronlaboratory/heroku-integrated-firefox-geckodriver)
-[![Requirements Status](https://requires.io/github/pyronlaboratory/heroku-integrated-firefox-geckodriver/requirements.svg?branch=master)](https://requires.io/github/pyronlaboratory/heroku-integrated-firefox-geckodriver/requirements/?branch=master)
+# Quantierra's Kimurai Heroku Buildpack w/Firefox
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
-> Available for download at [The Heroku Elements Marketplace](https://elements.heroku.com/). Search `heroku-integrated-firefox-geckodriver` on the official Heroku Elements Marketplace to access the buildpack.
 
 
 Buildpack `heroku-integrated-firefox-geckodriver` enables your application or client code - running in any high-level language such as *Python, Ruby or Node.js* - to access **Firefox** along with **Geckodriver** (the Selenium driver for Firefox) in a Heroku slug and enables the driver objects to perform automated operations defined in the source code.
@@ -39,7 +33,6 @@ Update Heroku's environment variables to store the following path strings.
 **PATH**: */usr/local/bin:/usr/bin:/bin:/app/vendor/*
 
                 
-
 These configuration vars can be updated via Heroku CLI as follows:
 
 Executable command: `heroku config:set <ENV_VARIABLE>=<ABSOLUTE_PATH>`
@@ -51,9 +44,3 @@ $ heroku config:set FIREFOX_BIN=/app/vendor/firefox/firefox
 Setting FIREFOX_BIN and restarting python-app... done, v6
 FIREFOX_BIN: '/app/vendor/firefox/firefox'
 
-```
-
-
-Go ahead and scrape the universe. Drop a star if you like this small project!
-
-[![ko-fi](ko-fi.png)](https://ko-fi.com/F1F1VEXA)
