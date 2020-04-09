@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# asdf-plugin: ruby 2.5.7
+exec /Users/robertgrayson/.asdf/bin/asdf exec "kimurai" "$@"
