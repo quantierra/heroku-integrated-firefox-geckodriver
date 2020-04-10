@@ -84,6 +84,7 @@ for PACKAGE in $PACKAGES; do
     apt-get $APT_OPTIONS -y --force-yes -d install --reinstall $PACKAGE | indent
   fi
 done
+gem install kimurai
 
 mkdir -p $BUILD_DIR/.apt
 
